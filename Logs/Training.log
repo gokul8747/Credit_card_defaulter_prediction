@@ -1,0 +1,113 @@
+2022-11-17 18:49:30 INFO Entered in Train_validator module
+2022-11-17 18:49:30 INFO Entered in Raw_validator module
+2022-11-17 18:49:30 INFO Accessing train_validate method in Train_validator class for train data validation
+2022-11-17 18:49:30 INFO Accessing delete_goodpath method in Raw_validator class to delete good_data folder if already exists
+2022-11-17 18:49:30 INFO good_data folder deleted successfully
+2022-11-17 18:49:30 INFO Accessing delete_badpath method in Raw_validator class to delete bad_data folder if already exists
+2022-11-17 18:49:30 INFO bad_data folder deleted successfully
+2022-11-17 18:49:30 INFO Accessing create_good_bad_path method in Raw_validator class for creating directory
+2022-11-17 18:49:30 INFO good_data folder created successfully
+2022-11-17 18:49:30 INFO bad_data folder created successfully
+2022-11-17 18:49:30 INFO Accessing value_from_schema method in Raw_validator class for getting schema values
+2022-11-17 18:49:30 INFO successfully loaded schema file value
+2022-11-17 18:49:30 INFO Accessing manual_regex method in Raw_validator class for regex creation
+2022-11-17 18:49:30 INFO regex created successfully
+2022-11-17 18:49:30 INFO Accessing validate_filename method in Raw_validator class for validation of filename
+2022-11-17 18:49:30 INFO valid file name
+2022-11-17 18:49:30 INFO Accessing validate_column method in Raw_validator class for column validation
+2022-11-17 18:49:30 INFO valid column size
+2022-11-17 18:49:30 INFO Accessing null_check method in Raw_validator class for checking if any of the column is empty
+2022-11-17 18:49:30 INFO columns are valid
+2022-11-17 18:49:30 INFO successfully copied data to good_data path
+2022-11-17 18:49:30 INFO data is ready for uploading in database
+2022-11-17 18:49:30 INFO Entered in train_model module for model training
+2022-11-17 18:49:30 INFO Accessing training_model method in train_model class for model training
+2022-11-17 18:49:30 INFO Entered in Database_operation module
+2022-11-17 18:49:30 INFO Accessing database_connection method in DB_operation class for database connection
+2022-11-17 18:49:38 INFO Database connected successfully
+2022-11-17 18:49:38 INFO Accessing delete_table method in DB_operation class to drop existing table
+2022-11-17 18:49:38 INFO Table dropped successfully
+2022-11-17 18:49:39 INFO database closed successfully
+2022-11-17 18:49:39 INFO Accessing database_connection method in DB_operation class for database connection
+2022-11-17 18:49:47 INFO Database connected successfully
+2022-11-17 18:49:47 INFO Accessing create_table method in DB_operation class for table creation
+2022-11-17 18:49:48 INFO Table created successfully
+2022-11-17 18:49:49 INFO database closed successfully
+2022-11-17 18:49:49 INFO Accessing database_connection method in DB_operation class for database connection
+2022-11-17 18:50:00 INFO Database connected successfully
+2022-11-17 18:50:00 INFO Accessing insert_into_table method in DB_operation class for insertion of data into table
+2022-11-17 18:50:00 INFO Reading data from csv file
+2022-11-17 18:50:00 INFO Inserting data into table
+2022-11-17 19:43:24 INFO data loaded into table successfully
+2022-11-17 19:43:24 INFO Accessing database_connection method in DB_operation class for database connection
+2022-11-17 19:43:33 INFO Database connected successfully
+2022-11-17 19:43:33 INFO Accessing data_from_db method in DB_operation class for exporting the data from database as csv file
+2022-11-17 19:43:47 INFO data exported successfully from database
+2022-11-17 19:43:47 INFO database closed successfully
+2022-11-17 20:32:12 INFO Entered in train_model module for model training
+2022-11-26 19:58:21 INFO Entered in train_model module for model training
+2022-11-26 19:58:21 INFO Starting of Training
+2022-11-26 19:58:21 INFO Entered in Data_getter module
+2022-11-26 19:58:21 INFO Accessing get_data method in Data_getter class for loading data
+2022-11-26 19:58:21 INFO data loaded successfully
+2022-11-26 19:58:21 INFO Entered in preprocessor class module
+2022-11-26 19:58:21 INFO Accessing delete_column method for deletion of column
+2022-11-26 19:58:21 INFO Column id dropped successfully
+2022-11-26 19:58:21 INFO Accessing resampler method in preprocessor class for resampling of imbalanced data
+2022-11-26 19:58:22 INFO successfully resampled data
+2022-11-26 19:58:22 INFO Converting balanced data to dataframe
+2022-11-26 19:58:22 INFO successfully converted to dataframe
+2022-11-26 19:58:22 INFO Accessing separate_feature_label method in preprocessor class for separating features and label
+2022-11-26 19:58:22 INFO feature is separated from data
+2022-11-26 19:58:22 INFO Label is separated from data
+2022-11-26 19:58:22 INFO returning separated feature and label
+2022-11-26 19:58:22 INFO Entered KMeansclutering method
+2022-11-26 19:58:22 INFO Entered in File Operation module
+2022-11-26 19:58:22 INFO Accessing find_elbow method in Kmeansclustering class for finding optimal k value
+2022-11-26 19:58:37 INFO Best optimal k value for the given data is:3
+2022-11-26 19:58:37 INFO Saving the elbow plot as png in Preprocessing_data folder
+2022-11-26 19:58:37 INFO Accessing create_cluster method in Kmeansclustering class for creating clusters
+2022-11-26 19:58:38 INFO KMean model is fitted for the given data
+2022-11-26 19:58:38 INFO Accessing save_model method in File_operations class for model saving
+2022-11-26 19:58:38 INFO Model: KMeans saved, Exiting from File_operations Module.
+2022-11-26 19:58:38 INFO Data clustered successfully and assigned with respective cluster lables
+2022-11-26 19:58:38 INFO Accessing standardizer method in preprocessor class for data standardizing
+2022-11-26 19:58:38 INFO data standardized successfully
+2022-11-26 19:58:38 INFO Entered Model_finder module
+2022-11-26 19:58:38 INFO Accessing get_best_model method in Model_finder class for finding best model
+2022-11-26 19:58:38 INFO Accessing get_best_para_rfc method in model_finder class for getting optimal parameter
+2022-11-26 19:59:52 INFO Optimal parameter found for rfc to the given data
+2022-11-26 20:00:06 INFO Accessing get_best_para_xgb method in model_finder class for getting optimal parameter
+2022-11-26 20:01:23 INFO Optimal parameter found for xgb to the given data
+2022-11-26 20:01:34 INFO Best model found successfully
+2022-11-26 20:01:34 INFO Best model for cluster: 1 is model Randomforestclassifier
+2022-11-26 20:01:34 INFO Entered in File Operation module
+2022-11-26 20:01:34 INFO Accessing save_model method in File_operations class for model saving
+2022-11-26 20:01:34 INFO Model: Randomforestclassifier1 saved, Exiting from File_operations Module.
+2022-11-26 20:01:34 INFO Accessing standardizer method in preprocessor class for data standardizing
+2022-11-26 20:01:34 INFO data standardized successfully
+2022-11-26 20:01:34 INFO Entered Model_finder module
+2022-11-26 20:01:34 INFO Accessing get_best_model method in Model_finder class for finding best model
+2022-11-26 20:01:34 INFO Accessing get_best_para_rfc method in model_finder class for getting optimal parameter
+2022-11-26 20:02:05 INFO Optimal parameter found for rfc to the given data
+2022-11-26 20:02:11 INFO Accessing get_best_para_xgb method in model_finder class for getting optimal parameter
+2022-11-26 20:02:41 INFO Optimal parameter found for xgb to the given data
+2022-11-26 20:02:45 INFO Best model found successfully
+2022-11-26 20:02:45 INFO Best model for cluster: 2 is model XGBClassifier
+2022-11-26 20:02:45 INFO Entered in File Operation module
+2022-11-26 20:02:45 INFO Accessing save_model method in File_operations class for model saving
+2022-11-26 20:02:45 INFO Model: XGBClassifier2 saved, Exiting from File_operations Module.
+2022-11-26 20:02:45 INFO Accessing standardizer method in preprocessor class for data standardizing
+2022-11-26 20:02:45 INFO data standardized successfully
+2022-11-26 20:02:45 INFO Entered Model_finder module
+2022-11-26 20:02:45 INFO Accessing get_best_model method in Model_finder class for finding best model
+2022-11-26 20:02:45 INFO Accessing get_best_para_rfc method in model_finder class for getting optimal parameter
+2022-11-26 20:02:58 INFO Optimal parameter found for rfc to the given data
+2022-11-26 20:03:01 INFO Accessing get_best_para_xgb method in model_finder class for getting optimal parameter
+2022-11-26 20:03:18 INFO Optimal parameter found for xgb to the given data
+2022-11-26 20:03:20 INFO Best model found successfully
+2022-11-26 20:03:20 INFO Best model for cluster: 0 is model XGBClassifier
+2022-11-26 20:03:20 INFO Entered in File Operation module
+2022-11-26 20:03:20 INFO Accessing save_model method in File_operations class for model saving
+2022-11-26 20:03:20 INFO Model: XGBClassifier0 saved, Exiting from File_operations Module.
+2022-11-26 20:03:20 INFO Training process successfully ended

@@ -1,0 +1,12 @@
+2022-11-26 21:28:06 INFO Entered in prediction module
+2022-11-26 21:28:06 INFO Accessing predict method in prediction class for model prediction from user input data
+2022-11-26 21:28:06 INFO Entered in File Operation module
+2022-11-26 21:28:06 INFO Accessing load_model method in File_operations class for Loading the model
+2022-11-26 21:28:06 INFO Model: scaler has been successfully loaded.
+2022-11-26 21:28:06 INFO Accessing load_model method in File_operations class for Loading the model
+2022-11-26 21:28:06 INFO Model: KMeans has been successfully loaded.
+2022-11-26 21:28:06 INFO Accessing find_correct_model_file method for finding the correct model file
+2022-11-26 21:28:06 INFO correct model file found
+2022-11-26 21:28:06 INFO Accessing load_model method in File_operations class for Loading the model
+2022-11-26 21:28:06 INFO Model: Randomforestclassifier1 has been successfully loaded.
+2022-11-26 21:28:06 INFO successfully prediction over
