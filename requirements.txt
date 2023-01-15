@@ -31,8 +31,6 @@ jupyter_core==4.11.1
 kiwisolver==1.4.4
 kneed==0.8.1
 MarkupSafe==2.1.1
-matplotlib==3.6.0
-matplotlib-inline==0.1.6
 nest-asyncio==1.5.6
 numpy==1.23.4
 packaging==21.3
