@@ -10,4 +10,5 @@ Web Interface
 <hr>
 ###Home page
 When the User land on the webpage, prediction template page is rendered for prediction.
-![](https://drive.google.com/file/d/14xHDG5Z9vEDK0XjsR30TkUhMMfk_DHii/view?usp=sharing)
+
+![xcv](https://drive.google.com/file/d/14xHDG5Z9vEDK0XjsR30TkUhMMfk_DHii/view?usp=sharing)
