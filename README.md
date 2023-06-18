@@ -7,8 +7,8 @@ depolyment link: [credit_card_defaulter_predictor](https://web-production-db46.u
 Web Interface                          
 
 1. Home page (prediction)
-2.  2. Result page
+2. Result page
 <hr>
-Home page
+<h3>Home page</h3>
 When the User land on the webpage, prediction template page is rendered for prediction.
 
