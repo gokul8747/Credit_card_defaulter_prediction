@@ -15,5 +15,6 @@ When the User land on the webpage, prediction template page is rendered for pred
 ![prediction](https://github.com/gokul8747/Credit_card_defaulter_prediction/assets/90145993/ce081a38-574f-4456-848d-9814ce38b3e0)
 <hr>
 <h3>Result page</h3>                                 
-The result page displays the prediction made by the model based on the users input.   
-![result](https://github.com/gokul8747/Credit_card_defaulter_prediction/assets/90145993/105a37e4-5a59-4d93-b8bb-cdb5ba62ea09)
+The result page displays the prediction![result](https://github.com/gokul8747/Credit_card_defaulter_prediction/assets/90145993/8ce376cc-1b70-42dd-af90-3c26b286406b)
+ made by the model based on the users input.  
+
