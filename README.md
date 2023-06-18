@@ -4,9 +4,10 @@ The aim of the project was to analyze the dataset and create an ML model that wo
 depolyment link: [credit_card_defaulter_predictor](https://web-production-db46.up.railway.app/)
 <hr>
 <h2>Content</h2>
-Web Interface      
-- 1. Home page (prediction)
-- 2. Result page
+Web Interface                          
+
+1. Home page (prediction)
+2.  2. Result page
 <hr>
 Home page
 When the User land on the webpage, prediction template page is rendered for prediction.
